@@ -1537,8 +1537,9 @@ position: absolute;
  display:none;
 } 
 }.site-header-section .aux-header-elements:not(.aux-vertical-menu-elements), .site-header-section .aux-fill .aux-menu-depth-0 > .aux-item-content { height:90px; }.site-header-section { background-color:rgba(0, 0, 0, 0); }.site-header-section.aux-sticky { background-color:rgba(0, 0, 0, 0); } </style> <style id="sccss">.ekit-content-items .ekit-marquee {
- margin-left: 0 !important;
- margin-right: 0 !important;
+    margin-left: 0; /* Remove the !important */
+    margin-right: 0; /* Remove the !important */
+    animation: scroll-left 10s linear infinite; /* Add this animation */
 }
 .page-id-486 #inner-body{
  overflow: hidden !important;
